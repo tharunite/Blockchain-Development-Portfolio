@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bones-of-Bitcoin/contracts/simpleStorage.sol": "simpleStorage"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bones-of-Bitcoin/contracts/simpleStorage.sol": {
+			"keccak256": "0xfa3c2f6c7b34d27fece8a6b6995820d01caee82cadd411cde2d94a53363e259a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ea1469424a922faf0070e8f314d06977013c41fe67a31ccc7e7b2a0d123ab4f4",
+				"dweb:/ipfs/QmQ6H1gctPrtbbFecTmATWx3Ti27Npz7bXF1P4FZn2UGKV"
+			]
+		}
+	},
+	"version": 1
+}
