@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "delayHours",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "isVip",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dayAfterFlight",
+						"type": "uint256"
+					}
+				],
+				"name": "claim",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bones-of-Bitcoin/contracts/conditional/hard.sol": "insurance"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bones-of-Bitcoin/contracts/conditional/hard.sol": {
+			"keccak256": "0x3aa1847b835c4a3d463a082b577d10f03a510df855f5ca8fb234ecd0fe012f35",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1ec1ac98ca3199538a7706b64ced6e3fc5ab79c2b2f6c1d8d62c8a516015f764",
+				"dweb:/ipfs/QmeoNBL5tw6n36wGuhCCLM6x1JEstL4wDxE1uv1obLPoGS"
+			]
+		}
+	},
+	"version": 1
+}
