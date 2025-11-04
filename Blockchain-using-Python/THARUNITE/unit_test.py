@@ -1,11 +1,10 @@
 import json
 import random
 from ecdsa import SigningKey, SECP256k1
-from blockchain import Blockchain  # your class
+from blockchain import Blockchain 
+from datetime import datetime,timezone
 
-# ----------------------------
-# 1. Generate anonymous accounts
-# ----------------------------
+
 def generate_accounts(num):
     accounts = []
     for _ in range(num):
@@ -18,21 +17,17 @@ def generate_accounts(num):
         })
     return accounts
 
-accounts = generate_accounts(6)  # 6 anonymous users
+accounts = generate_accounts(6)  
 
-# Save accounts to file
+
 with open("accounts", "w") as f:
     json.dump(accounts, f, indent=4)
 
-# ----------------------------
-# 2. Initialize blockchain
-# ----------------------------
+
 bc = Blockchain()
 bc.load_chain_from_file()  
 
-# ----------------------------
-# 3. Generate transactions and mine multiple blocks
-# ----------------------------
+
 tx_per_block = 3
 total_blocks = 5
 block_counter = 0
@@ -52,22 +47,19 @@ while block_counter < total_blocks:
         except Exception as e:
             print(f"Transaction failed: {e}")
 
-    # Verify transactions before mining
+
     for tx in bc.pending_transaction:
         if bc.verify_transaction(tx):
             continue
         else:
             print("Invalid transaction found!")
 
-    # Mine the block
     print("Mining block...")
     bc.pow()
     print(f"Block {block_counter+1} mined.")
     block_counter += 1
 
-# ----------------------------
-# 4. Print the blockchain
-# ----------------------------
+
 print("\nFinal Blockchain:")
 for i, block in enumerate(bc.chain):
     print(f"\nBlock {i}:")
@@ -77,21 +69,3 @@ for i, block in enumerate(bc.chain):
 
 
 
-def load_chain_from_file(self, filename='blockchain.txt'):
-        self.chain = []
-        try:
-            with open(filename, 'r') as f:
-                for line in f:
-                    block = json.loads(line)
-                    self.chain.append(block)
-        except FileNotFoundError:
-            # If no file exists, create genesis block
-            genesis_block = {
-                'Id': 0,
-                'Timestamp': datetime.now(timezone.utc).isoformat(),
-                'Transactions': [],
-                'prev_hash': '0'*16,
-                'nonce': 0
-            }
-            genesis_block['hash'] = self.hash(genesis_block)
-            self.chain.append(genesis_block)

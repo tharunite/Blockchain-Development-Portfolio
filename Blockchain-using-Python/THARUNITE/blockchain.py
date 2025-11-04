@@ -9,6 +9,12 @@ class Blockchain:
         self.chain=[]
         self.pending_transaction=[]
         # Create genesis block
+        self.genesis()
+        
+        
+    
+
+    def genesis(self):
         genesis_block = {
             'Id': 0,
             'Timestamp': datetime.now(timezone.utc).isoformat(),
@@ -18,10 +24,6 @@ class Blockchain:
         }
         genesis_block['hash'] = self.hash(genesis_block)
         self.chain.append(genesis_block)
-        
-    
-
-
 
 #UTILITY functions
     @property
@@ -167,14 +169,6 @@ class Blockchain:
                     self.chain.append(block)
         except FileNotFoundError:
             # If no file exists, create genesis block
-            genesis_block = {
-                'Id': 0,
-                'Timestamp': datetime.now(timezone.utc).isoformat(),
-                'Transactions': [],
-                'prev_hash': '0'*16,
-                'nonce': 0
-            }
-            genesis_block['hash'] = self.hash(genesis_block)
-            self.chain.append(genesis_block)
+            self.genesis()
 
 

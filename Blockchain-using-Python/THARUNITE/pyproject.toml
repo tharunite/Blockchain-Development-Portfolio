@@ -1,16 +1,32 @@
 [project]
 name = "tharunite"
 version = "0.1.0"
-description = "Blockchain implementation using python for educational purposes"
+description = "Blockchain implementation using Python for educational purposes"
 authors = [
-    {name = "UTK",email = "utharunkumar0@gmail.com"}
+    { name = "UTK", email = "utharunkumar0@gmail.com" }
 ]
-license = {text = "MIT"}
+license = { text = "MIT" }
 readme = "README.md"
 requires-python = ">=3.12"
+
 dependencies = [
+    "ecdsa>=0.19.0",           # For key generation and digital signatures
+    "flask>=3.0.0",            # Optional: for exposing blockchain via REST API later
+    "requests>=2.31.0",        # For networking between blockchain nodes
+    "cryptography>=43.0.0",    # Extra crypto utilities (hashing, signing, etc.)
+    "pydantic>=2.8.0",         # For transaction/block data validation
+    "rich>=13.7.0",            # For nice terminal output
+    "jsonschema>=4.23.0",      # For schema validation of blocks/transactions
+    "pytest>=8.2.0"            # For testing blockchain logic
 ]
 
+[project.optional-dependencies]
+dev = [
+    "black>=24.4.0",           # Code formatter
+    "isort>=5.13.0",           # Import sorter
+    "mypy>=1.10.0",            # Static type checking
+    "flake8>=7.1.0"            # Code linting
+]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
