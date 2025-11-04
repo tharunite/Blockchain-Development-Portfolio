@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "gethighest",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "given",
+						"type": "uint256"
+					}
+				],
+				"name": "putNum",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bones-of-Bitcoin/contracts/whoseNumber.sol": "largest"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bones-of-Bitcoin/contracts/whoseNumber.sol": {
+			"keccak256": "0x5f3fcc68ab7b28c7d9b603da3a67605c59b9c62ae2bac9bad2e53a4886f24393",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://531d457855b803cfd3c8fc66df62cfcf2fe851f074b68950618b6113fc40697f",
+				"dweb:/ipfs/QmXAH8yyGvvX1B2eJppqtvBqsobqq2wu2yX4Lu5wVR28SE"
+			]
+		}
+	},
+	"version": 1
+}
