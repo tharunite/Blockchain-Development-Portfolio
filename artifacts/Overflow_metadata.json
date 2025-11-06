@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "overflow",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bones-of-Bitcoin/contracts/overflow.sol": "Overflow"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bones-of-Bitcoin/contracts/overflow.sol": {
+			"keccak256": "0x1f7e2db29b9aede9296d67c8ec38433cbbd432571d63ae10cb1a1306dfc560f7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://92f1cea2fb6cbea0190bc1709d726dc5d1223b86f8a6e04753cb596be86f3c3a",
+				"dweb:/ipfs/QmUG7LHR4auwQYrFj2fWw79AfdhPxWW5fb9zX5sd2j8cRb"
+			]
+		}
+	},
+	"version": 1
+}

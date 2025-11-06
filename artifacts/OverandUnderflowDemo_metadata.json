@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "bigNum",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "overflowPreview",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "beforeValue",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "afterValue",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "smallNum",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "underflowPreview",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "beforeValue",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "afterValue",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bones-of-Bitcoin/contracts/overflow.sol": "OverandUnderflowDemo"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bones-of-Bitcoin/contracts/overflow.sol": {
+			"keccak256": "0xc7cbdbc2449bab9565b72d7fbea9b7676914c5f5a11762aea68774bda121de32",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://910c9c1a3c1fb5a2e92e9aca1e92a9ede6ce1ccf2b20d852c497ed28e2bab035",
+				"dweb:/ipfs/Qmcjuyrzw2pRSuK8zj4KoCrYMx3gG2n2foC6H6WVTqnCLi"
+			]
+		}
+	},
+	"version": 1
+}
