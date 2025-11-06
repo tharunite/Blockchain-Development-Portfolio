@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "locked",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "toggleLock",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bones-of-Bitcoin/contracts/booleanToggle.sol": "toggle"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bones-of-Bitcoin/contracts/booleanToggle.sol": {
+			"keccak256": "0xaa6f3eab5f5a8629f5f4ac10ed2fd75734232333b60598e0abe4cc5974944a90",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4b0c09d3fcfee1217c3d92b7647bb3aedde3f7e53e8550f382b25e39a9440445",
+				"dweb:/ipfs/QmNpuPTV6ty8fRx9jTwsaFAVXvbDhdSktj98X2xrHB5TZB"
+			]
+		}
+	},
+	"version": 1
+}

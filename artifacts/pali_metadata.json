@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_Number",
+						"type": "uint256"
+					}
+				],
+				"name": "palindrome",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bones-of-Bitcoin/contracts/reverseInteger.sol": "pali"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bones-of-Bitcoin/contracts/reverseInteger.sol": {
+			"keccak256": "0xbb7c176ff041d1b696d53fbfe4e915681688ad7dcb8ca0535f471e3d636cb3ee",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://710e2503eade2298511e151f9e1fa95bb9aa62f426573f780d10cb7613ecdc78",
+				"dweb:/ipfs/QmRcPntvRyh3KAgZoFKurUKER3WsEvRQQ1UHg6cpAxP1Ch"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "marks",
+						"type": "uint256"
+					}
+				],
+				"name": "getGrade",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bones-of-Bitcoin/contracts/conditional/easy.sol": "Grade"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bones-of-Bitcoin/contracts/conditional/easy.sol": {
+			"keccak256": "0x1270eae0ee4d5a610a8a63cc5a074b497fdcf4231f3f83dabceaa0d12ee172cb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2c9f265bd92011d389ac41c427050b6b21492e87f177e7ec1902febfe149b2ab",
+				"dweb:/ipfs/QmZSVmHPhQgdzqyNUALHdgq7xvjaHVU4mBwq2HcXNzmvAs"
+			]
+		}
+	},
+	"version": 1
+}

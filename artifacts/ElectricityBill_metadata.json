@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "units",
+						"type": "uint256"
+					}
+				],
+				"name": "calculateBill",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "totalCost",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "Usage",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bones-of-Bitcoin/contracts/conditional/medium.sol": "ElectricityBill"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bones-of-Bitcoin/contracts/conditional/medium.sol": {
+			"keccak256": "0x20c67d5ce9a7046f9daa27bc19ce57359492b06d81e650726074f0981f5ec780",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3f34af367f76fdf8d377a67f97497f2ea675b2c026489f0ba363bad75d3f99c7",
+				"dweb:/ipfs/Qme3zx2Wgh8xtPzHnoJWdTRQyUotqi4XyVUvZkFNq2Pynm"
+			]
+		}
+	},
+	"version": 1
+}
